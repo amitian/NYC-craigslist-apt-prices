@@ -61,3 +61,5 @@ Estimated Coefficients of Features:
 
 NYC Monthly Apartment Rental Price by Borough:
 ![download (1)](https://user-images.githubusercontent.com/81931093/155893927-d14f9952-4d4b-41cf-879b-501462fa2a5e.png)
+
+See .pdf of Google Slides presentation for more graphs and info.
