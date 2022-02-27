@@ -27,23 +27,23 @@ The target was the apartment's monthly rental price. The features ultimately inc
 
 The dataset was split into 80/20 training vs. testing data, and 5-fold cross-validation was used on the training data to generate R-squared scores, mean absolute error, and root mean squared error. The model was only exposed to the testing data at the end of the process.
 
-The models evaluated were OLS regression, Linear Regression, Polynomial Regression, Ridge Regression, and Lasso Regression. Lasso Regression with an alpha of 0.29331662783900436 was ultimately chosen for its slightly higher R-squared as well as its smaller margin of error (for both mean absolute error and root mean squared error). 
+The models evaluated were OLS regression, Linear Regression, Polynomial Regression, Ridge Regression, and Lasso Regression. Ridge Regression with an alpha of 20.729 was ultimately chosen for its slightly higher R-squared as well as its smaller margin of error (for both mean absolute error and root mean squared error). 
 
 **Training Scores using 5-fold CV:**
 
-R-squared (mean of 5 scores): `0.5145992061573719` 
+R-squared (mean of 5 scores): `0.526` 
 
-Mean Absolute Error (mean of 5 scores):`649.5818802577718` 
+Mean Absolute Error (mean of 5 scores):`648.645` 
 
-Root Mean Squared Error (mean of 5 scores):`1027.995666769461`
+Root Mean Squared Error (mean of 5 scores):`1027.445`
 
 **Testing Scores:**
 
-R-squared: `0.5184638697981072`
+R-squared: `0.519`
 
-Mean Absolute Error: `679.0904763809374`
+Mean Absolute Error: `671.147`
 
-Root Mean Squared Error: `1128.8126222451556`
+Root Mean Squared Error: `1127.721`
 
 ### Tools
 
@@ -54,4 +54,10 @@ Root Mean Squared Error: `1128.8126222451556`
 
 ### Communication
 
-Ultimately, the model could only account for approximately 50% of the variance for the NYC monthly apartment rental prices scraped from Craigslist, suggesting that other factors must be taken into consideration when attempting to predict an apartment's rental price.
+Ultimately, the linear regression model could only account for approximately 50% of the variance for the NYC monthly apartment rental prices scraped from Craigslist, suggesting that other factors must be taken into consideration when attempting to predict an apartment's rental price.
+
+Estimated Coefficients of Features:
+![download](https://user-images.githubusercontent.com/81931093/155893903-cdc56fed-038f-4df5-8a19-bc6be10712d0.png)
+
+NYC Monthly Apartment Rental Price by Borough:
+![download (1)](https://user-images.githubusercontent.com/81931093/155893927-d14f9952-4d4b-41cf-879b-501462fa2a5e.png)
