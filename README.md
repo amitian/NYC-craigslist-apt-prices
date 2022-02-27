@@ -33,17 +33,17 @@ The models evaluated were OLS regression, Linear Regression, Polynomial Regressi
 
 R-squared (mean of 5 scores): `0.526` 
 
-Mean Absolute Error (mean of 5 scores):`648.645` 
+Mean Absolute Error (mean of 5 scores):`648.65` 
 
-Root Mean Squared Error (mean of 5 scores):`1027.445`
+Root Mean Squared Error (mean of 5 scores):`1027.45`
 
 **Testing Scores:**
 
 R-squared: `0.519`
 
-Mean Absolute Error: `671.147`
+Mean Absolute Error: `671.15`
 
-Root Mean Squared Error: `1127.721`
+Root Mean Squared Error: `1127.72`
 
 ### Tools
 
